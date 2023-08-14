@@ -3,7 +3,7 @@
 // Execute `rustlings hint move_semantics1` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
+
 
 fn main() {
     let vec0 = Vec::new();
@@ -12,7 +12,7 @@ fn main() {
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 
-    vec1.push(88);
+    vec1.get(88);
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 }
